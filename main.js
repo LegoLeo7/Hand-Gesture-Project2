@@ -63,7 +63,7 @@ function gotResult(error, results) {
             }
             if(results[0].label == "bad symbol")
             {
-                document.getElementById("update_emoji").innerHTML = "&#128076";
+                document.getElementById("update_emoji").innerHTML = "&#128078";
             }
             if(results[1].label == "ok symbol")
             {
@@ -75,7 +75,7 @@ function gotResult(error, results) {
             }
             if(results[1].label == "bad symbol")
             {
-                document.getElementById("update_emoji2").innerHTML = "&#128076";
+                document.getElementById("update_emoji2").innerHTML = "&#128078";
             }
           
 
